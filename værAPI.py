@@ -121,30 +121,30 @@ def generateHTMLPage(formatted_data):
 def getWeatherSymbolURL(symbol_code):
     symbol_mapping = {
      #download symbols from nrkno/yr github       
-    "clearsky_day": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\clearsky_day.png",
-    "partlycloudy_day": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\partlycloudy_day.png",
-    "cloudy": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\cloudy.png",
-    "rain": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\rain.png",
-    "snow": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\snow.png",
-    "fog": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\fog.png",
-    "sleet": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\sleet.png",
-    "wind": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\wind.png",
-    "partlycloudy_night": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\partlycloudy_night.png",
-    "rain_showers_day": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\rain_showers_day.png",
-    "rain_showers_night": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\rain_showers_night.png",
-    "sleet_showers_day": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\sleet_showers_day.png",
-    "sleet_showers_night": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\sleet_showers_night.png",
-    "snow_showers_day": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\snow_showers_day.png",
-    "snow_showers_night": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\snow_showers_night.png",
-    "thunder_rain_day": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\thunder_rain_day.png",
-    "thunder_rain_night": "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\thunder_rain_night.png",
+    "clearsky_day": "media/01d.png",
+    "partlycloudy_day": "media/03d.png",
+    "cloudy": "media/04.png",
+    "rain": "media/09.png",
+    "snow": "media/13.png",
+    "fog": "media/15.png",
+    "sleet": "media/12.png",
+    "wind": "media/04.png",
+    "partlycloudy_night": "media/03n.png",
+    "rain_showers_day": "media/05d.png",
+    "rain_showers_night": "media/05n.png",
+    "sleet_showers_day": "media/07d.png",
+    "sleet_showers_night": "media/07n.png",
+    "snow_showers_day": "media/08d.png",
+    "snow_showers_night": "media/08n.png",
+    "thunder_rain_day": "media/06d.png",
+    "thunder_rain_night": "media/06n.png",
     }
 
         
     
 
     
-    return symbol_mapping.get(symbol_code, "C:\\Users\\magnu\\Downloads\\weathericons-main\\weather\\png\\fog.png")
+    return symbol_mapping.get(symbol_code, "media/15.png")
 
 #not used for anything atm
 def Vindretning():
